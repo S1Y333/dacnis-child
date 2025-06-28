@@ -1,0 +1,27 @@
+{
+  "name": "dacnis-child",
+  "version": "1.0.0",
+  "description": "Purpose: to install tailwind to my WP website theme file",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S1Y333/dacnis-child.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S1Y333/dacnis-child/issues"
+  },
+  "homepage": "https://github.com/S1Y333/dacnis-child#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
