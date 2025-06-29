@@ -521,8 +521,13 @@ function workforcepulse_child_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style') );
 
-	// enqueue tailwindcss
-	wp_enqueue_style( 'tailwindcss', get_stylesheet_directory_uri() . '/src/output.css');
+	// Enqueue Tailwind (must be last)
+    wp_enqueue_style(
+        'tailwindcss',
+        get_stylesheet_directory_uri() . '/assets/css/output.css',
+        array('child-style'),
+        filemtime(get_stylesheet_directory() . '/src/output.css')
+    );
 }
 
 
