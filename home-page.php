@@ -48,7 +48,11 @@
 			
 		</div>
 		<!-- contact us -->
-		 <div class="md:w-2/3">
+		 <div class="container mx-auto px-4 max-w-6xl flex flex-col md:flex-row items-center md:gap-x-12 h-64">
+			<div class="md:w-1/3 mb-6 md:mb-0 ">
+				<img src="https://workforcepulse.ca/wp-content/uploads/2025/06/engineers.png" alt="two engineers" class="w-full h-auto rounded-lg">
+			</div>
+			<div class="md:w-2/3">
 				<div class="px-6">
 					<h2 class="text-2xl font-bold mb-3">Welcome to Our Website</h2>
 					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -58,6 +62,7 @@
 
 				</div>
 			</div>
+		</div>
     </section>
 </div>
 <?php

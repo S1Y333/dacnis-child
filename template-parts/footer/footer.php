@@ -1,15 +1,49 @@
-<div class="wp-block wp-block-kubio-section  position-relative wp-block-kubio-section__outer dacnis-footer__k__vP0mYzy99sE-outer dacnis-local-744-outer d-flex h-section-global-spacing align-items-lg-center align-items-md-center align-items-center" data-kubio="kubio/section" id="footer">
-	<div class="position-relative wp-block-kubio-section__inner dacnis-footer__k__vP0mYzy99sE-inner dacnis-local-744-inner h-section-grid-container h-section-boxed-container">
-		<div class="wp-block wp-block-kubio-row  position-relative wp-block-kubio-row__container dacnis-footer__k__e6PC03TfkKI-container dacnis-local-745-container gutters-row-lg-2 gutters-row-v-lg-2 gutters-row-md-2 gutters-row-v-md-2 gutters-row-0 gutters-row-v-2" data-kubio="kubio/row">
-			<div class="position-relative wp-block-kubio-row__inner dacnis-footer__k__e6PC03TfkKI-inner dacnis-local-745-inner h-row align-items-lg-stretch align-items-md-stretch align-items-stretch justify-content-lg-center justify-content-md-center justify-content-center gutters-col-lg-2 gutters-col-v-lg-2 gutters-col-md-2 gutters-col-v-md-2 gutters-col-0 gutters-col-v-2">
-				<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container dacnis-footer__k__nJpox2eRXHV-container dacnis-local-746-container d-flex h-col-lg-12 h-col-md-12 h-col-12" data-kubio="kubio/column">
-					<div class="position-relative wp-block-kubio-column__inner dacnis-footer__k__nJpox2eRXHV-inner dacnis-local-746-inner d-flex h-flex-basis h-px-lg-2 v-inner-lg-2 h-px-md-2 v-inner-md-2 h-px-2 v-inner-2">
-						<div class="position-relative wp-block-kubio-column__align dacnis-footer__k__nJpox2eRXHV-align dacnis-local-746-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-start align-self-md-start align-self-start">
-							<?php dacnis_theme_print_footer_copyright(); ?>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<div " data-kubio="kubio/section" id="footer">
+	<div class="bg-gray-900 text-white pt-10">
+								<div class="container mx-auto px-4 max-w-7xl">
+									<!-- Grid layout: 5 columns total -->
+									<div class="grid grid-cols-1 md:grid-cols-5 gap-8 mb-10">
+									
+									<!-- Left side: 2 columns merged -->
+									<div class="md:col-span-2">
+										<img src="logo.png" alt="Logo" class="h-10 mb-4">
+										<p class="text-sm text-gray-300">
+										Workforce pulse tagline
+										</p>
+									</div>
+
+									<!-- Right side: 3 columns -->
+									<div class="text-right">
+										<h4 class="font-semibold mb-2 text-white">Explore</h4>
+										<ul class="list-none space-y-1 text-sm p-0">
+										<li><a href="" class="text-white no-underline hover:underline">Home</a></li>
+										<li><a href="/about-us" class="text-white no-underline hover:underline">About Us</a></li>
+										<li><a href="/partners" class="text-white no-underline hover:underline">Partner</a></li>
+										<li><a href="/contact-us" class="text-white no-underline hover:underline">Contact Us</a></li>
+										</ul>
+									</div>
+
+									<div class="text-right">
+										<h4 class="font-semibold mb-2 text-white">Company</h4>
+										<ul class="list-none space-y-1 text-sm p-0">
+										<li><a href="#" class="text-white no-underline hover:underline">About</a></li>
+										<li><a href="#" class="text-white no-underline hover:underline">Careers</a></li>
+										</ul>
+									</div>
+
+									<div class="text-right">
+										<h4 class="font-semibold mb-2 text-white">Support</h4>
+										<ul class="list-none space-y-1 text-sm p-0">
+										<li><a href="#" class="text-white no-underline hover:underline">Contact</a></li>
+										<li><a href="#" class="text-white no-underline hover:underline">Help Center</a></li>
+										</ul>
+									</div>
+									</div>
+
+									<!-- Copyright -->
+									<div class="border-t border-gray-700 py-4 text-sm text-center text-gray-400">
+									&copy; <?php echo date('Y'); ?> Workforce Pulse. Powered by Magnet. All rights reserved.
+									</div>
+								</div>
+							</div>
 </div>

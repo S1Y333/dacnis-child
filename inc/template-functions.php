@@ -9,8 +9,8 @@ function dacnis_theme_print_footer_copyright() {
 			&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'blogname' ); ?>.
 			<?php
 			printf(
-				__( 'Created with ❤️ using WordPress and %s', 'dacnis' ),
-				'<a target="_blank" rel="noreferrer" href="https://kubiobuilder.com/">Kubio</a>'
+				__( 'Powered by %s', 'dacnis' ),
+				'<a target="_blank" rel="noreferrer" href="https://Magnetnetwork.ca/">Magnet</a>'
 			);
 			?>
 		</p>
