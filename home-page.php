@@ -4,7 +4,7 @@
  */
 ?>
 <?php get_header(); ?>
-<div id="content" >
+<div id="content" class="mb-[10rem]">
   <div class="container mx-auto px-4 max-w-6xl text-left">
 	<h2 class="text-2xl font-bold mb-3">Title here</h2>
 	<h3 class="mb-4">Duis hendrerit neque orci, quis porttitor quam fringilla a. Fusce faucibus, sem varius volutpat dictum, odio tellus feugiat enim, vel.</h3>
