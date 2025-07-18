@@ -7,6 +7,11 @@
  Version:      1.0.0
  Text Domain:  Dacnis-child
 */
+
+body, html {
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
  body{background-color:#fff}
  .screen-reader-text{clip:rect(1px,1px,1px,1px);word-wrap:normal!important;height:1px;margin:-1px;overflow:hidden;position:absolute!important;width:1px}
  .screen-reader-text:focus{clip:auto!important;background-color:#f1f1f1;border-radius:3px;box-shadow:0 0 2px 2px rgba(0,0,0,.6);-webkit-clip-path:none;clip-path:none;color:#21759b;display:block;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}
@@ -1667,16 +1672,22 @@ html .h-y-container .wp-block:not([data-kubio]){max-width:100%}
  .kubio-dropdown-menu .kubio-offscreen-icon-wrapper,
  .kubio-dropdown-menu .kubio-offscreen-icon-wrapper:focus,
  .kubio-dropdown-menu .kubio-offscreen-icon-wrapper:hover{background:none}
- .kubio-dropdown-menu .wp-block-kubio-menu-offscreen{display:none}@media (max-width:767px){
+/* start revision for nav to show only hamburger button all screen sizes */
+/*  .kubio-dropdown-menu .wp-block-kubio-menu-offscreen{display:none} */
+
  .kubio-dropdown-menu.has-offcanvas-mobile .kubio-menu{display:none}
  .kubio-dropdown-menu.has-offcanvas-mobile .kubio-offscreen-icon-wrapper{display:inline-block}
- .kubio-dropdown-menu.has-offcanvas-mobile .wp-block-kubio-menu-offscreen{display:block}}@media (max-width:1023px){
+ .kubio-dropdown-menu.has-offcanvas-mobile .wp-block-kubio-menu-offscreen{display:block}
+
  .kubio-dropdown-menu.has-offcanvas-tablet .kubio-menu{display:none}
  .kubio-dropdown-menu.has-offcanvas-tablet .kubio-offscreen-icon-wrapper{display:inline-block}
- .kubio-dropdown-menu.has-offcanvas-tablet .wp-block-kubio-menu-offscreen{display:block}}
+ .kubio-dropdown-menu.has-offcanvas-tablet .wp-block-kubio-menu-offscreen{display:block}
+
  .kubio-dropdown-menu.has-offcanvas-desktop .kubio-menu{display:none}
- .kubio-dropdown-menu.has-offcanvas-desktop .kubio-offscreen-icon-wrapper{display:inline-block}
- .kubio-dropdown-menu.has-offcanvas-desktop .wp-block-kubio-menu-offscreen{display:block}
+ .kubio-dropdown-menu .kubio-offscreen-icon-wrapper{display:inline-block}
+/*  .kubio-dropdown-menu.has-offcanvas-desktop .wp-block-kubio-menu-offscreen{display:block} 
+ */
+/* end manual revision */
  .kubio-dropdown-menu.bordered-active-item .kubio-menu>ul>li{position:relative}
  .kubio-dropdown-menu.bordered-active-item .kubio-menu>ul>li:after,
  .kubio-dropdown-menu.bordered-active-item .kubio-menu>ul>li:before{content:" ";display:block;height:2px;left:0;opacity:0;position:absolute;width:100%;z-index:0}
@@ -2787,7 +2798,7 @@ html .h-y-container .wp-block:not([data-kubio]){max-width:100%}
  .wp-block-kubio-navigation-section,
  .wp-block-kubio-navigation [data-nav-normal]{transition:all .5s}
  #kubio .dacnis-header__k__0k8m0_Ev3Sa-outer .wp-block-kubio-navigation-section__nav{-webkit-animation-duration:.5s;animation-duration:.5s;background-color:rgba(var(--kubio-color-5),1);padding:30px 20px}
- #kubio .dacnis-header__k__0k8m0_Ev3Sa-outer .h-navigation_sticky.wp-block-kubio-navigation-section__nav{background-color:#fff;box-shadow:0 0 10px 0 rgba(23,25,39,.1);padding-bottom:10px;padding-top:10px}
+ #kubio .dacnis-header__k__0k8m0_Ev3Sa-outer .h-navigation_sticky.wp-block-kubio-navigation-section__nav{background-color:#000;box-shadow:0 0 10px 0 rgba(23,25,39,.1);padding-bottom:10px;padding-top:10px}
  #kubio .dacnis-header__k__Ak6k07KQEd-outer{background-color:#000;padding-bottom:5px;padding-top:5px}
  #kubio .dacnis-header__k__H5j46pm6Jd-inner{height:auto;min-height:unset;text-align:left}
  #kubio .dacnis-header__k__H5j46pm6Jd-container{height:auto;min-height:unset}
@@ -2885,7 +2896,7 @@ html .h-y-container .wp-block:not([data-kubio]){max-width:100%}
  #kubio .dacnis-footer__k__vP0mYzy99sE-outer a[data-kubio]:hover{color:rgba(var(--kubio-color-1-variant-2),1)}
  #kubio .dacnis-footer__k__nJpox2eRXHV-inner{text-align:center}
  #kubio .dacnis-footer__k__nJpox2eRXHV-container{height:auto;min-height:unset;text-align:center}
- #kubio .dacnis-front-header__k__Gp3qTlxXlu-outer .wp-block-kubio-navigation-section__nav{-webkit-animation-duration:.5s;animation-duration:.5s;background-color:rgba(var(--kubio-color-5),1);padding:30px 20px}
+ #kubio .dacnis-front-header__k__Gp3qTlxXlu-outer .wp-block-kubio-navigation-section__nav{-webkit-animation-duration:.5s;animation-duration:.5s;background-color:#000;padding:30px 20px}
  #kubio .dacnis-front-header__k__Gp3qTlxXlu-outer .h-navigation_sticky.wp-block-kubio-navigation-section__nav{background-color:#fff;box-shadow:0 0 10px 0 rgba(23,25,39,.1);padding-bottom:10px;padding-top:10px}
  #kubio .dacnis-front-header__k__8GUxJubiNQo-outer{background-color:#000;padding-bottom:5px;padding-top:5px}
  #kubio .dacnis-front-header__k__urE63sDCSD4-inner{height:auto;min-height:unset;text-align:left}
@@ -2918,7 +2929,7 @@ html .h-y-container .wp-block:not([data-kubio]){max-width:100%}
  #kubio .dacnis-front-header__k__c6BbujDIAOY-outer.solid-active-item>.kubio-menu>ul>li:after,
  #kubio .dacnis-front-header__k__c6BbujDIAOY-outer.solid-active-item>.kubio-menu>ul>li:before{background-color:#fff;border-bottom-left-radius:0;border-bottom-right-radius:0;border-top-left-radius:0;border-top-right-radius:0}
  #kubio .dacnis-front-header__k__c6BbujDIAOY-outer>.kubio-menu>ul{--kubio-gap-fallback:40px;gap:40px;justify-content:flex-end}
- #kubio .dacnis-front-header__k__c6BbujDIAOY-outer>.kubio-menu>ul>li>a{color:rgba(var(--kubio-color-6),1);font-family:Roboto,Helvetica,Arial,Sans-Serif,serif;font-size:18px;font-weight:400;letter-spacing:0;line-height:1.5em;padding:10px 0;text-decoration:none;text-transform:none}
+ #kubio .dacnis-front-header__k__c6BbujDIAOY-outer>.kubio-menu>ul>li>a{color:#fff; font-family:Roboto,Helvetica,Arial,Sans-Serif,serif;font-size:18px;font-weight:400;letter-spacing:0;line-height:1.5em;padding:10px 0;text-decoration:none;text-transform:none}
  #kubio .dacnis-front-header__k__c6BbujDIAOY-outer>.kubio-menu>ul>li.current-menu-item>a,
  #kubio .dacnis-front-header__k__c6BbujDIAOY-outer>.kubio-menu>ul>li.current_page_item>a,
  #kubio .dacnis-front-header__k__c6BbujDIAOY-outer>.kubio-menu>ul>li>a.hover,
@@ -3552,7 +3563,7 @@ html .h-y-container .wp-block:not([data-kubio]){max-width:100%}
  #kubio .woocommerce input.button.woocommerce-form-login__submit:disabled,
  #kubio .woocommerce input.button.woocommerce-form-login__submit[disabled]{background-color:rgba(var(--kubio-color-5-variant-2),1);border-color:rgba(var(--kubio-color-5-variant-2),1);color:rgba(var(--kubio-color-5-variant-4),1)}
  #kubio .woocommerce-loop-product__link .onsale{background-color:rgba(var(--kubio-color-3-variant-2),1);border-bottom-left-radius:10px;border-bottom-right-radius:10px;border-top-left-radius:10px;border-top-right-radius:10px;color:rgba(var(--kubio-color-5),1);padding:5px 10px}@media (min-width:768px) and (max-width:1023px){
- #kubio .dacnis-header__k__0k8m0_Ev3Sa-outer .h-navigation_sticky.wp-block-kubio-navigation-section__nav{background-color:rgba(var(--kubio-color-5),1);padding-bottom:30px;padding-top:30px}
+ #kubio .dacnis-header__k__0k8m0_Ev3Sa-outer .h-navigation_sticky.wp-block-kubio-navigation-section__nav{background-color:#000 ;padding-bottom:30px;padding-top:30px}
  #kubio .dacnis-header__k__nnHdEhFs6nn-inner{padding-right:20px}
  #kubio .dacnis-header__k__u4AOkK1zRds-container{padding:10px}
  #kubio .dacnis-header__k__KFTMhA6WOVh-outer{padding-bottom:60px;padding-top:60px}
@@ -3760,3 +3771,37 @@ html .h-y-container .wp-block:not([data-kubio]){max-width:100%}
  #kubio .wp-block-kubio-navigation.kubio-theme-nav-boxed .wp-block-kubio-dropdown-menu .customize-partial-edit-shortcut{left:0}
  #kubio .wp-block-kubio-navigation.kubio-theme-nav-full-width .has-logo-spacing-menu [data-kubio-component=dropdown-menu] .customize-partial-edit-shortcut{margin-left:0}}@media (max-width:767px){
  .has-logo-spacing-menu [data-kubio-component=dropdown-menu] .customize-partial-edit-shortcut{margin-left:0}}
+
+/* additional css */
+/* Hide regular desktop menu */
+/* .wp-block-kubio-menu-items:not(.wp-block-kubio-menu-offscreen-content .wp-block-kubio-menu-items) {
+    display: none !important;
+} */
+
+/* Make the hamburger icon white */
+.wp-block-kubio-menu-offscreen__iconWrapper svg path {
+    fill: white !important;
+    stroke: white !important;
+}
+/* Remove all animations from navigation section */
+.wp-block-kubio-navigation-section[data-kubio-component="navigation"] {
+    animation: none !important;
+    transition: none !important;
+}
+
+/* Force black background */
+.wp-block-kubio-navigation-section {
+    background-color: #000000 !important;
+}
+
+/* Specifically target sticky header animations if needed */
+.wp-block-kubio-navigation-section[data-kubio-component="navigation"][data-kubio-settings*="sticky"] {
+    animation: none !important;
+    transition: none !important;
+}
+
+/* Remove any transition effects on child elements */
+.wp-block-kubio-navigation-section * {
+    animation: none !important;
+    transition: none !important;
+}

@@ -1,46 +1,38 @@
 <?php $component = \ColibriWP\Theme\View::getData( 'component' ); ?>
-<div class="wp-block wp-block-kubio-hero  position-relative wp-block-kubio-hero__outer dacnis-front-header__k__J6FPNZyUrn-outer dacnis-local-162-outer d-flex h-section-global-spacing align-items-lg-center align-items-md-center align-items-center" data-kubio="kubio/hero" id="hero">
-	<?php $component->printBackground(); ?><?php $component->printSeparator(); ?>
-	<div class="position-relative wp-block-kubio-hero__inner dacnis-front-header__k__J6FPNZyUrn-inner dacnis-local-162-inner h-navigation-padding h-section-grid-container h-section-boxed-container">
-		<script type='text/javascript'>
-			(function () {
-				// forEach polyfill
-				if (!NodeList.prototype.forEach) {
-					NodeList.prototype.forEach = function (callback) {
-						for (var i = 0; i < this.length; i++) {
-							callback.call(this, this.item(i));
-						}
-					}
-				}
-				var navigation = document.querySelector('[data-colibri-navigation-overlap="true"], .h-navigation_overlap');
-				if (navigation) {
-					var els = document
-						.querySelectorAll('.h-navigation-padding');
-					if (els.length) {
-						els.forEach(function (item) {
-							item.style.paddingTop = navigation.offsetHeight + "px";
-						});
-					}
-				}
-			})();
-		</script>
-		<div class="wp-block wp-block-kubio-row  position-relative wp-block-kubio-row__container dacnis-front-header__k__bgnhUSaQMl-container dacnis-local-163-container gutters-row-lg-0 gutters-row-v-lg-0 gutters-row-md-0 gutters-row-v-md-0 gutters-row-3 gutters-row-v-0" data-kubio="kubio/row">
-			<div class="position-relative wp-block-kubio-row__inner dacnis-front-header__k__bgnhUSaQMl-inner dacnis-local-163-inner h-row align-items-lg-stretch align-items-md-stretch align-items-stretch justify-content-lg-center justify-content-md-center justify-content-center gutters-col-lg-0 gutters-col-v-lg-0 gutters-col-md-0 gutters-col-v-md-0 gutters-col-3 gutters-col-v-0">
-				<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container dacnis-front-header__k__9IGHpldIpw-container dacnis-local-164-container d-flex h-col-lg-auto h-col-md-auto h-col-auto" data-kubio="kubio/column">
-					<div class="position-relative wp-block-kubio-column__inner dacnis-front-header__k__9IGHpldIpw-inner dacnis-local-164-inner d-flex h-flex-basis h-px-lg-3 v-inner-lg-3 h-px-md-2 v-inner-md-3 h-px-3 v-inner-3">
-						<div class="position-relative wp-block-kubio-column__align dacnis-front-header__k__9IGHpldIpw-align dacnis-local-164-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
-							<?php dacnis_theme()->get( 'front-title' )->render(); ?><?php dacnis_theme()->get( 'front-subtitle' )->render(); ?><?php dacnis_theme()->get( 'buttons' )->render(); ?>
-						</div>
-					</div>
-				</div>
-				<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container dacnis-front-header__k__grZqVAqgp-container dacnis-local-173-container d-flex h-col-lg-auto h-col-md-auto h-col-auto" data-kubio="kubio/column">
-					<div class="position-relative wp-block-kubio-column__inner dacnis-front-header__k__grZqVAqgp-inner dacnis-local-173-inner d-flex h-flex-basis h-px-lg-3 v-inner-lg-3 h-px-md-3 v-inner-md-3 h-px-3 v-inner-3">
-						<div class="position-relative wp-block-kubio-column__align dacnis-front-header__k__grZqVAqgp-align dacnis-local-173-align h-y-container h-column__content h-column__v-align flex-basis-100 align-self-lg-center align-self-md-center align-self-center">
-							<?php dacnis_theme()->get( 'front-image' )->render(); ?>
-						</div>
-					</div>
-				</div>
-			</div>
+<style>
+	.hero-container {
+		background-image:url(https://workforcepulse.ca/wp-content/uploads/2025/07/0c0c7ef00c73405461207596c7a0e651e7ae3715-scaled.jpg);
+		background-size:cover;
+		background-position:center bottom;
+		transition: 0.3s ease-out;
+		border-bottom: #5163AC 0.9rem solid;
+		color:white;
+		height:40rem;
+		display: flex;          /* Enable Flexbox */
+		flex-direction: column; /* Stack children vertically */
+		justify-content: flex-end; 
+	}
+	
+	.button-style {
+		background-color: #C3DA63;border-radius: 2rem;
+		border-style: none;
+		
+	}
+</style>
+<section style="heigh:100%; width:100%">
+
+	<div class="hero-container">
+		<div class="mb-[2rem] mx-auto px-4 max-w-full xs:max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl text-left" >
+			<h1>
+			Hero Title dolor sit amet, consectetur adipiscing elit 
+		</h1>
+		<h4>
+			Consectetur adipiscing elit. Cras eget nibh vitae mauris viverra aliquam. Mauris lobortis accumsan ante et.
+		</h4>
+		<a href="https://magnetnetwork.ca" class="button-style  inline-block text-black text-center text-decoration-none" style="padding: 0.5rem 1rem;text-decoration: none;color: black;">
+                Button ->
+            </a>
 		</div>
+		 
 	</div>
-</div>
+</section>
