@@ -526,7 +526,7 @@ function workforcepulse_child_styles() {
         'tailwindcss',
         get_stylesheet_directory_uri() . '/assets/css/output.css',
         array('child-style'),
-        filemtime(get_stylesheet_directory() . '/src/output.css')
+        filemtime(get_stylesheet_directory() . '/assets/css/output.css') //need to be a correct path to the tailwind file
     );
 }
 
