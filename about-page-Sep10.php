@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: About Template
+ * Template Name: About Sept10 Template
  */
 ?>
 <?php get_header(); ?>
@@ -45,61 +45,7 @@
    <!-- what we're measuring -->
 	<section class="my-12 mb-40">
 		
-  <div class="mx-auto px-4 max-w-full sm:max-w-container-sm
-       md:max-w-container-md lg:max-w-container-lg
-       xl:max-w-container-xl 2xl:max-w-container-2xl ">
-    <div>
-      <h2 class="font-black mb-4">What We’re Measuring</h2>
-      <p class="font-normal md:font-light">Gain critical insights into workforce business sentiment across Canada’s key sectors—uncover current staffing realities, future hiring outlooks, the hardest roles to fill, and how tariffs are shaping organizational needs and planning.</p>
-    </div>
-<!-- 1st -->
-    <div class="flex flex-col md:flex-row md:items-center gap-8 md:gap-20">
-      <div class="md:w-1/7 font-black flex-none rounded-full bg-[#C3DA63] p-3 w-20 h-20 flex items-center justify-center text-xl" >
-        01
-      </div>
-      <div class=" md:w-6/7">
-        <h3 class="font-black">Current Workforce Staffing Situation</h3>
-        <p class="font-normal md:font-light">Understand how employers are managing their current workforce needs—whether they’re facing shortages, operating at capacity, or experiencing layoffs. This insight provides a snapshot of the pressures and realities shaping staffing decisions across diverse industries in today’s labour market.</p>
-      </div>
-     
-    </div>
-	 
-	 <!-- 2st -->
-    <div class="flex flex-col md:flex-row md:items-center gap-8 md:gap-20">
-      <div class="md:w-1/7 font-black flex-none rounded-full bg-[#C3DA63] p-3 w-20 h-20 flex items-center justify-center text-xl" >
-        02
-      </div>
-      <div class=" md:w-6/7">
-        <h3 class="font-black">Future Outlook</h3>
-        <p class="font-normal md:font-light">Explore how businesses anticipate their workforce needs evolving over the coming months. This includes projected hiring activity, expansion or contraction plans, and broader expectations about economic recovery or disruption—critical context for planning, policy, and investment decisions.</p>
-      </div>
-     
-    </div>
-	  
-	<!-- 3rd -->
-    <div class="flex flex-col md:flex-row md:items-center gap-8 md:gap-20">
-      <div class="md:w-1/7 font-black flex-none rounded-full bg-[#C3DA63] p-3 w-20 h-20 flex items-center justify-center text-xl" >
-        03
-      </div>
-      <div class=" md:w-6/7">
-        <h3 class="font-black">Roles Most Challenging to Fill</h3>
-        <p class="font-normal md:font-light">Discover which positions are proving hardest to staff—and why. Whether due to skills shortages, geographic barriers, or competition between sectors, these insights highlight where gaps exist and where upskilling, recruitment, or training strategies may be most urgently needed.</p>
-      </div>
-     
-    </div>
-	  
-	<!-- 4th -->
-    <div class="flex flex-col md:flex-row md:items-center gap-8 md:gap-20">
-      <div class="md:w-1/7 font-black flex-none rounded-full bg-[#C3DA63] p-3 w-20 h-20 flex items-center justify-center text-xl" >
-        04
-      </div>
-      <div class=" md:w-6/7">
-        <h3 class="font-black">Tariff Impacts and Organizational Needs</h3>
-        <p class="font-normal md:font-light">Gain perspective on how trade dynamics and tariff changes are influencing workforce planning and business operations. Learn how shifts in global trade are affecting labour demand, resource allocation, and long-term planning in Canada’s key economic sectors.</p>
-      </div>
-     
-    </div>
-  </div>
+  
 
 	
 	<!-- banner   -->

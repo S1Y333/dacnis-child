@@ -1,5 +1,5 @@
 <?php $component = \ColibriWP\Theme\View::getData( 'component' ); ?>
-<div style="<?php $component->printPostFeaturedImage(); ?>" class="wp-block wp-block-kubio-hero  position-relative wp-block-kubio-hero__outer dacnis-header__k__KFTMhA6WOVh-outer dacnis-local-689-outer d-flex h-section-global-spacing align-items-lg-center align-items-md-center align-items-center" data-kubio="kubio/hero" id="hero">
+<!-- <div style="<?php $component->printPostFeaturedImage(); ?>" class="wp-block wp-block-kubio-hero  position-relative wp-block-kubio-hero__outer dacnis-header__k__KFTMhA6WOVh-outer dacnis-local-689-outer d-flex h-section-global-spacing align-items-lg-center align-items-md-center align-items-center" data-kubio="kubio/hero" id="hero">
 	<?php $component->printBackground(); ?><?php $component->printSeparator(); ?>
 	<div class="position-relative wp-block-kubio-hero__inner dacnis-header__k__KFTMhA6WOVh-inner dacnis-local-689-inner h-navigation-padding h-section-grid-container h-section-boxed-container">
 		<script type='text/javascript'>

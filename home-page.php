@@ -12,7 +12,7 @@
        md:max-w-container-md lg:max-w-container-lg
        xl:max-w-container-xl 2xl:max-w-container-2xl text-left">
 		  <h1 class=" text-12 font-black">
-			Canada’s first coordinated rapid-response labour market intelligence initiative
+			Workforce Pulse <br/> Grounded Insight. Informed Action. A Stronger Workforce.
 		  </h1>
 		</div>
 	  </div>

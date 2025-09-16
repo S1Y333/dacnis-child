@@ -6,7 +6,7 @@
 						
 							<!-- Left side: 2 columns merged -->
 							<div class="col-span-full sm:col-span-2 md:col-span-4">
-								<img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-wp-stacked-rev@2x.png" alt="website Logo" class=" mb-4">
+								<img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-wp-stacked-rev@2x.png" alt="website Logo" class=" mb-4" style="width:30%">
 
 							</div>
 
@@ -19,6 +19,7 @@
 									<li><a href="/about-us" class="text-white no-underline hover:underline">About</a></li>
 									<li><a href="/partners" class="text-white no-underline hover:underline">Partners</a></li>
 									<li><a href="/contact-us" class="text-white no-underline hover:underline">Dashboard</a></li>
+									<li><a href="/sector-reports" class="text-white no-underline hover:underline">Sector Reports</a>									</li>
 								</ul>
 							</div>
 
@@ -34,17 +35,14 @@
 							
 						</div>
 																									
-						<!-- future skills center/powered by magnet two logos-->
-						<div class="grid grid-cols-1 md:grid-cols-5 mb-4 md:gap-8 md:mb-10">
-						
-								<!-- Left side: 2 columns merged -->
-							<div class="md:col-span-2 ">
-								<img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-PBM-FSC-lockup@2x.png" alt="pbm& FSC Logo" >
-							</div>
-
+						<!-- future skills center logo-->
+						<div class="">
+								<img class=" w-30 h-4 md:h-[1.8rem]" src="https://workforcepulse.ca/wp-content/uploads/2025/09/Heading-1.png" alt="FSC Logo" >
 						</div>
 						
 					</div>
+			
+			
 	    </div>
 		<div class="bg-black text-white">
 			<div class="container mx-auto px-4 max-w-7xl">
@@ -52,8 +50,11 @@
 					<div class="border-t border-gray-700 py-4 text-sm flex justify-content-between items-center  text-gray-400">
 						
 							<img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-CAN-FSC-funding-1@2x.png" alt="Logo" class=" w-30 h-4 md:h-[1.8rem]">
-						
+						<div class="flex items-center" >
+							 <img style="width: 12rem;position: absolute;right: 12rem;" src="https://workforcepulse.ca/wp-content/uploads/2025/09/pbm_logo-horz-en-ko.png" alt="pbm Logo" >  
 							<p class="absolute right-4 text-white">&copy; <?php echo date('Y'); ?> | Privacy Policy </p>
+						</div>
+							
 						
 					</div>
 			</div>

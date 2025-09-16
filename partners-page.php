@@ -6,7 +6,7 @@
 <?php get_header(); ?>
 <div id="content" >
    <section class="h-full w-full">
-  <div class=" bg-cover bg-center-bottom transition-all duration-300 ease-out border-solid border-b-[20px] border-[#5163AC] text-white h-[40rem] flex flex-col justify-end" style="background-image:url('https://workforcepulse.ca/wp-content/uploads/2025/08/hero-image-scaled.jpeg');">
+  <div class=" bg-cover bg-center-bottom transition-all duration-300 ease-out border-solid border-b-[20px] border-[#5163AC] text-white  flex flex-col justify-end" style="background-image:url('https://workforcepulse.ca/wp-content/uploads/2025/08/hero-image-scaled.jpeg'); height:35rem; background-position:bottom;">
     <div class="mb-8 mx-auto px-4 max-w-full sm:max-w-container-sm
        md:max-w-container-md lg:max-w-container-lg
        xl:max-w-container-xl 2xl:max-w-container-2xl w-full sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full text-left">
@@ -20,9 +20,9 @@
   <div class=" mt-[3rem] mx-auto px-4 max-w-full sm:max-w-container-sm
        md:max-w-container-md lg:max-w-container-lg
        xl:max-w-container-xl 2xl:max-w-container-2xl text-left">
-	<h2 class=" mb-3 font-black text-[2rem]">Our Partners</h2>
-	<h4 class="mb-4 font-bold text-[#5163AC] ">Workforce Pulse is powered by the collective strength of fourteen national industry organizations representing Canada’s most vital economic sectors—from manufacturing and construction to clean energy, tourism, and biotechnology. </h4>
-	<p class="font-normal md:font-light" >These partners bring deep sector expertise, trusted relationships with employers, and a shared commitment to capturing real-world insights from the ground up. Together, they ensure Workforce Pulse reflects the diverse realities of Canada’s labour market and delivers timely, actionable intelligence that supports stronger workforce strategies across the country
+	<h2 class=" mb-3 font-black text-[2rem]">Workforce Pulse Partners<span class="text-[#5163AC]"> (alphabetical)</span> </h2>
+	<h4 class="mb-4 font-bold text-[#5163AC]">Workforce Pulse is powered by the collective strength of fourteen national industry and workforce development organizations representing Canada's most vital economic sectors.  </h4>
+	<p class="font-normal md:font-light" >These partner organizations bring deep sector expertise, trusted relationships with employers and a shared commitment to capturing real-world insights from the ground up. Together, they ensure Workforce Pulse reflects the diverse realities of Canada's labour market and delivers timely, actionable intelligence that supports stronger workforce strategies across the country.
 	   </p>
    </div>
    
@@ -42,7 +42,7 @@
              class="w-full h-auto ">
       </div>
       <div class="w-full md:w-3/4">
-        <p class="mb-6 "><span class="font-bold">BioTalent Canada</span> supports the people behind life-changing science. As a trusted source for labour market intelligence, it provides evidence-based data and industry standards to the bio-economy. Focused on workforce development, BioTalent Canada connects job-ready talent with employers, helping ensure the sector's long-term agility, resilience and sustainability across Canada.
+        <p class="mb-6 "><span class="font-bold">BioTalent Canada</span> supports the people behind life-changing science. As a trusted source for labour market intelligence, it provides evidence-based data and industry standards to the bio-economy. Focused on workforce development, BioTalent Canada connects job-ready talent with employers, helping ensure the sector’s long-term agility, resilience and sustainability across Canada.
 		  </p>
         
       </div>
@@ -66,6 +66,38 @@
 	  
 	<div class="border-gray-300 border-t border-dotted border-[#80808070]"></div>
     
+	  <!-- CAHRC -->
+    <div class="flex flex-col md:flex-row items-center gap-8 md:gap-[5rem]">
+      <div class="w-full md:w-1/4">
+        <img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-CAHRC-16-9.png" 
+             alt="CAHRC logo" 
+             class="w-full h-auto ">
+      </div>
+      <div class="w-full md:w-3/4">
+        
+        <p class="mb-6 font-normal md:font-light"><span class="font-bold">The Canadian Agricultural Human Resource Council (CAHRC)</span> is a national, not-for-profit organization focused on addressing human resource management and workforce development in the agricultural sector. CAHRC works collaboratively with industry stakeholders to develop solutions that support a skilled, diverse, and sustainable agricultural workforce.</p>
+        
+      </div>
+    </div>
+	 
+	   <div class="border-gray-300 border-t border-dotted border-[#80808070]"></div>
+	  
+	  <!-- CCAA -->
+    <div class="flex flex-col md:flex-row items-center gap-8 md:gap-[5rem]">
+      <div class="w-full md:w-1/4">
+        <img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-CCAA-16-9.png" 
+             alt="CCAA logo" 
+             class="w-full h-auto ">
+      </div>
+      <div class="w-full md:w-3/4">
+        
+        <p class="mb-6 font-normal md:font-light"><span class="font-bold">The Canadian Council for Aviation and Aerospace (CCAA)</span>is dedicated to help industry attract and develop workers with the skills the Canadian aviation and aerospace industry needs to meet the demands of the current and future workplace.</p>
+        
+      </div>
+    </div>
+	  
+	  <div class="border-gray-300 border-t border-dotted border-[#80808070]"></div>
+	  
      <!-- Canada Green Building Council -->
     <div class="flex flex-col md:flex-row items-center gap-8 md:gap-[5rem]">
       <div class="w-full md:w-1/4">
@@ -75,13 +107,29 @@
       </div>
       <div class="w-full md:w-3/4">
         
-        <p class="mb-6 font-normal md:font-light"><span class="font-bold">The Canada Green Building Council</span> supports the people and businesses involved in designing, constructing, and operating buildings. We offer practical solutions that unlock the value of green buildings for attracting investment, reducing costs, and increasing asset value and resiliency. Working collaboratively with members, industry, and government, we can reduce environmental impacts and help Canada’s building sector achieve their business, sustainability, and carbon leadership goals.</p>
+        <p class="mb-6 font-normal md:font-light"><span class="font-bold">The Canada Green Building Council (CAGBC)</span> ) supports the people and businesses involved in designing, constructing, and operating buildings. We offer practical solutions that unlock the value of green buildings for attracting investment, reducing costs, and increasing asset value and resiliency. Working collaboratively with members, industry, and government, we can reduce environmental impacts and help Canada’s building sector achieve their business, sustainability, and carbon leadership goals.</p>
         
       </div>
     </div>
 	  
 	<div class="border-gray-300 border-t border-dotted border-[#80808070]"></div>
-    
+	  
+     <!-- CSTEC -->
+    <div class="flex flex-col md:flex-row items-center gap-8 md:gap-[5rem]">
+      <div class="w-full md:w-1/4">
+        <img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-CSTEC-16-9.png" 
+             alt="CSTEC logo" 
+             class="w-full h-auto ">
+      </div>
+      <div class="w-full md:w-3/4">
+        
+        <p class="mb-6 font-normal md:font-light"><span class="font-bold">The Canadian Skills Training and Employment Coalition (CSTEC)</span> , a division of Energy Safety Canada, delivers vital labour market insights and helps bridge skill gaps to ensure the energy sector has access to a diverse, adaptable workforce. We support both traditional and low-carbon energy industries, enabling companies to attract the skilled talent essential for sustainable growth and innovation.</p>
+        
+      </div>
+    </div>
+	  
+	  <div class="border-gray-300 border-t border-dotted border-[#80808070]"></div>
+	  
      <!-- Careers in Energy -->
     <div class="flex flex-col md:flex-row items-center gap-8 md:gap-[5rem]">
       <div class="w-full md:w-1/4">
@@ -98,38 +146,22 @@
 	  
 	  <div class="border-gray-300 border-t border-dotted border-[#80808070]"></div>
 	  
-	   <!-- CCAA -->
+	    <!-- EHRC -->
     <div class="flex flex-col md:flex-row items-center gap-8 md:gap-[5rem]">
       <div class="w-full md:w-1/4">
-        <img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-CCAA-16-9.png" 
-             alt="CCAA logo" 
+        <img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-EHRC-16-9.png" 
+             alt="EHRC logo" 
              class="w-full h-auto ">
       </div>
       <div class="w-full md:w-3/4">
         
-        <p class="mb-6 font-normal md:font-light"><span class="font-bold">The Canadian Council for Aviation and Aerospace (CCAA)</span> is dedicated to help industry attract and develop workers with the skills the Canadian aviation and aerospace industry needs to meet the demands of the current and future workplace.</p>
+        <p class="mb-6 font-normal md:font-light"><span class="font-bold">EHRC</span> ensures the Canadian electricity and renewable energy sector has a safety-focused, highly skilled and inclusive workforce. Supporting a sector that employs approximately 110,000 people across more than 600 organizations, EHRC collaborates with industry stakeholders to develop solutions to workforce challenges and promote career opportunities. They deliver data-driven insights and practical strategies to help employers recruit, retain and develop the skilled workers essential for operating an efficient and reliable electricity system.</p>
         
       </div>
     </div>
-	  
+	     
 	  <div class="border-gray-300 border-t border-dotted border-[#80808070]"></div>
-	  
-	  <!-- CSTEC -->
-    <div class="flex flex-col md:flex-row items-center gap-8 md:gap-[5rem]">
-      <div class="w-full md:w-1/4">
-        <img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-CSTEC-16-9.png" 
-             alt="CSTEC logo" 
-             class="w-full h-auto ">
-      </div>
-      <div class="w-full md:w-3/4">
-        
-        <p class="mb-6 font-normal md:font-light"><span class="font-bold">The Canadian Skills Training and Employment Coalition (CSTEC)</span> enables innovative, multi-stakeholder solutions to training, recruitment, and labour market challenges in Canada’s manufacturing sector. CSTEC partners with employers, unions, and colleges to upskill youth, newcomers, women, Indigenous and racialized skilled workers, facilitating job placements and apprenticeships, research, and equity-focused employment pathways.</p>
-        
-      </div>
-    </div>
-	  
-	  <div class="border-gray-300 border-t border-dotted border-[#80808070]"></div>
-	  
+	   
 	  <!-- ECO Canada -->
     <div class="flex flex-col md:flex-row items-center gap-8 md:gap-[5rem]">
       <div class="w-full md:w-1/4">
@@ -139,7 +171,7 @@
       </div>
       <div class="w-full md:w-3/4">
         
-        <p class="mb-6 font-normal md:font-light"><span class="font-bold">ECO Canada</span> is the steward for the Canadian environmental workforce across all industries. From job creation and wage funding to training and labour market research, we champion the end-to-end career of all environmental professionals. We aim to promote and drive responsible, sustainable economic growth, while also ensuring that environmental best practices remain a priority.</p>
+        <p class="mb-6 font-normal md:font-light"><span class="font-bold">ECO Canada</span> is the steward for the Canadian environmental workforce across all industries. From job creation and wage funding to training and labour market research, we champion the end-to-end career of all environmental professionals. We aim to promote and drive responsible, sustainable economic growth, while also ensuring that environmental best practices remain a priority. </p>
         
       </div>
     </div>
@@ -160,23 +192,7 @@
         
       </div>
     </div>
-	  
-	  <div class="border-gray-300 border-t border-dotted border-[#80808070]"></div>
-	  
-	  <!-- EHRC -->
-    <div class="flex flex-col md:flex-row items-center gap-8 md:gap-[5rem]">
-      <div class="w-full md:w-1/4">
-        <img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-EHRC-16-9.png" 
-             alt="EHRC logo" 
-             class="w-full h-auto ">
-      </div>
-      <div class="w-full md:w-3/4">
-        
-        <p class="mb-6 font-normal md:font-light"><span class="font-bold">EHRC</span> ensures the Canadian electricity and renewable energy sector has a safety-focused, highly skilled and inclusive workforce. Supporting a sector that employs approximately 110,000 people across more than 600 organizations, EHRC collaborates with industry stakeholders to develop solutions to workforce challenges and promote career opportunities. They deliver data-driven insights and practical strategies to help employers recruit, retain and develop the skilled workers essential for operating an efficient and reliable electricity system.</p>
-        
-      </div>
-    </div>
-	  
+ 
 	  <div class="border-gray-300 border-t border-dotted border-[#80808070]"></div>
 	  
 	  <!-- Food Processing -->
@@ -220,7 +236,7 @@
       </div>
       <div class="w-full md:w-3/4">
         
-        <p class="mb-6 font-normal md:font-light"><span class="font-bold">Tourism HR Canada</span> is a pan-Canadian organization with a mandate aimed at building a world-leading tourism workforce. As a Workforce Development Council, it facilitates, coordinates, and enables human resource development activities which support a globally competitive and sustainable industry and foster the development of a dynamic and resilient workforce.</p>
+        <p class="mb-6 font-normal md:font-light"><span class="font-bold">Tourism HR Canada</span> is a pan-Canadian organization with a mandate aimed at building a world-leading tourism workforce. As a Workforce Development Council, Tourism HR Canada facilitates, coordinates, and enables human resource development activities that support a globally competitive and sustainable industry, fostering the development of a dynamic and resilient workforce.</p>
         
       </div>
     </div>

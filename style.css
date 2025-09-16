@@ -81,7 +81,10 @@ html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-family:sans-se
  b,
  strong{font-weight:700}
  dfn{font-style:italic}
- h1{font-size:2.44em;margin:.67em 0}
+ h1{font-size:2.2rem;margin:.67em 0}
+@media (min-width:410px) {
+	h1{ font-size:2.44em}
+}
  h1,
  h2{line-height:1.4}
  h2{font-size:1.95em}
@@ -278,11 +281,24 @@ html input[disabled]{cursor:default}
  .h-container{max-width:960px}}@media (min-width:1200px){
  .h-container{max-width:1232px}}
  .h-container-fluid{margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px;width:100%}
- .h-section-boxed-container{margin-left:auto;margin-right:auto;padding-left:0;padding-right:0;width:100%}@media (min-width:576px){
- .h-section-boxed-container{max-width:540px}}@media (min-width:768px){
- .h-section-boxed-container{max-width:720px}}@media (min-width:1024px){
- .h-section-boxed-container{max-width:960px}}@media (min-width:1200px){
- .h-section-boxed-container{max-width:1232px}}
+ .h-section-boxed-container{margin-left:auto;margin-right:auto;padding-left:0;padding-right:0;width:100%}
+
+ @media (min-width:576px){
+	 .h-section-boxed-container{max-width:800px}}
+	 @media (min-width:684px){
+ .h-section-boxed-container{max-width:650px}}
+	 @media (min-width:767px){
+ .h-section-boxed-container{max-width:780px}}
+
+	@media (min-width:1024px){
+ .h-section-boxed-container{max-width:1032px}
+	}
+   @media (min-width:1280px){
+ .h-section-boxed-container{max-width:1300px}
+	}
+   @media (min-width:1536px){
+ .h-section-boxed-container{max-width:1480px}
+	}
  .h-section-fluid-container{margin-left:auto;margin-right:auto;padding-left:0;padding-right:0;width:100%}
  .h-row{display:flex;flex-wrap:wrap;margin-left:-15px;margin-right:-15px}
  .no-gutters{margin-left:0;margin-right:0}
@@ -3790,10 +3806,16 @@ html .h-y-container .wp-block:not([data-kubio]){max-width:100%}
     transition: none !important;
 }
 
-/* Force black background */
+/*  background first transparent until scroll down */
 .wp-block-kubio-navigation-section {
-    background-color: #000000 !important;
+    background-color: #00000000 !important;
+	 transition: background-color 0.3s ease;
 }
+
+.wp-block-kubio-navigation-section.scrolled {
+  background-color: #000000 !important;
+}
+
 
 /* Specifically target sticky header animations if needed */
 .wp-block-kubio-navigation-section[data-kubio-component="navigation"][data-kubio-settings*="sticky"] {

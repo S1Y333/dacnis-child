@@ -526,9 +526,30 @@ function workforcepulse_child_styles() {
         'tailwindcss',
         get_stylesheet_directory_uri() . '/assets/css/output.css',
         array('child-style'),
-        filemtime(get_stylesheet_directory() . '/assets/css/output.css') //need to be a correct path to the tailwind file
+        filemtime(get_stylesheet_directory() . '/assets/css/output.css')
     );
 }
+
+// color changing header
+function custom_header_scroll_script() {
+    ?>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const header = document.querySelector(".wp-block-kubio-navigation-section");
+
+      window.addEventListener("scroll", function () {
+        if (window.scrollY > 50) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+    });
+    </script>
+    <?php
+}
+add_action('wp_footer', 'custom_header_scroll_script');
+
 
 
 
