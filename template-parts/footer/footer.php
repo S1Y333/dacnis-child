@@ -37,7 +37,7 @@
 																									
 						<!-- future skills center logo-->
 						<div class="">
-								<img class=" w-30 h-4 md:h-[1.8rem]" src="https://workforcepulse.ca/wp-content/uploads/2025/09/Heading-1.png" alt="FSC Logo" >
+								<img class=" px-2 md:px-0 w-100 md:w-1/4 md:max-w-60" src="https://workforcepulse.ca/wp-content/uploads/2025/09/Heading-1.png" alt="FSC Logo" >
 						</div>
 						
 					</div>
@@ -47,12 +47,12 @@
 		<div class="bg-black text-white">
 			<div class="container mx-auto px-4 max-w-7xl">
 				<!-- Copyright -->
-					<div class="border-t border-gray-700 py-4 text-sm flex justify-content-between items-center  text-gray-400">
+					<div class="border-t border-gray-700 py-4 text-sm md:flex justify-content-between items-center  text-gray-400">
 						
-							<img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-CAN-FSC-funding-1@2x.png" alt="Logo" class=" w-30 h-4 md:h-[1.8rem]">
+							<img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-CAN-FSC-funding-1@2x.png" alt="Logo" class=" p-2 md:p-0 w-100  md:w-1/4">
 						<div class="flex items-center" >
-							 <img style="width: 12rem;position: absolute;right: 12rem;" src="https://workforcepulse.ca/wp-content/uploads/2025/09/pbm_logo-horz-en-ko.png" alt="pbm Logo" >  
-							<p class="absolute right-4 text-white">&copy; <?php echo date('Y'); ?> | Privacy Policy </p>
+							 <img class="w-1/2 md:absolute md:w-48 md:right-48" src="https://workforcepulse.ca/wp-content/uploads/2025/09/pbm_logo-horz-en-ko.png" alt="pbm Logo" >  
+							 <p class="md:absolute md:right-4 text-white">&copy; <?php echo date('Y'); ?> | Privacy Policy </p>
 						</div>
 							
 						
