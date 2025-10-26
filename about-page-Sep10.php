@@ -50,7 +50,7 @@
 		 <h3 class="text-[#5163AC] " style="border-bottom: 2px dotted #d1d5db;">
 			<?php _e('Partners', 'Dacnis-child');?>
 		  </h3>
-	   <div class="grid grid-cols-7 gap-2 px-4 mt-12" style="flex-wrap: wrap;justify-content: space-between;">
+	   <div class="grid grid-cols-7 gap-2 px-4 mt-12 flex flex-wrap justify-between" >
 			<img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-bioTalent-16-9.png" class="w-full h-auto" />
 		   <img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-buildforce-16-9.png" class="w-full h-auto" />
 		    <img src="https://workforcepulse.ca/wp-content/uploads/2025/08/logo-CAGBC-16-9.png" class="w-full h-auto" />
