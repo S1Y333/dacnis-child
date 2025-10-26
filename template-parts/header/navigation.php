@@ -30,6 +30,10 @@
 							</div>
 						</div>
 						<div class="wp-block wp-block-kubio-column  position-relative wp-block-kubio-column__container dacnis-header__k__nnHdEhFs6nn-container dacnis-local-640-container d-flex h-col-lg-auto h-col-md-auto h-col-auto" data-kubio="kubio/column">
+<!-- 				add language switcher			 -->
+					<div class="customized-switcher" style=" margin-top: 0.3rem;">
+						 <?php do_action('wpml_add_language_selector'); ?>
+							</div>
 							<div class="position-relative wp-block-kubio-column__inner dacnis-header__k__nnHdEhFs6nn-inner dacnis-local-640-inner d-flex h-flex-basis h-px-lg-0 v-inner-lg-0 h-px-md-0 v-inner-md-0 h-px-2 v-inner-2">
 								<div class="position-relative wp-block-kubio-column__align dacnis-header__k__nnHdEhFs6nn-align dacnis-local-640-align h-y-container h-column__content h-column__v-align flex-basis-auto align-self-lg-center align-self-md-center align-self-center">
 									<?php dacnis_theme()->get( 'header-menu' )->render(); ?>

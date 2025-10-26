@@ -7,12 +7,12 @@
 <div id="content" >
 <!--  hero  -->
   <section class="h-full w-full">
-	  <div class=" bg-cover bg-center-bottom transition-all duration-300 ease-out border-solid border-b-[20px] border-[#5163AC] text-white h-[40rem] flex flex-col justify-end" style="background-image:url('https://workforcepulse.ca/wp-content/uploads/2025/08/hero-image-scaled.jpeg');">
+	  <div class=" bg-cover bg-center-bottom transition-all duration-300 ease-out border-0 border-solid border-b-[20px] border-[#5163AC] text-white h-[40rem] flex flex-col justify-end" style="background-image:url('https://workforcepulse.ca/wp-content/uploads/2025/08/hero-image-scaled.jpeg');">
 		<div class="mb-8 mx-auto px-4 max-w-full sm:max-w-container-sm
        md:max-w-container-md lg:max-w-container-lg
        xl:max-w-container-xl 2xl:max-w-container-2xl text-left">
 		  <h1 class=" text-12 font-black">
-			Workforce Pulse <br/> Grounded Insight. Informed Action. A Stronger Workforce.
+			<?php _e('Workforce Pulse - Grounded Insight. <br> Informed Action. A Stronger Workforce.', 'Dacnis-child');?>
 		  </h1>
 		</div>
 	  </div>
@@ -68,8 +68,7 @@
       <div class="w-full md:w-1/2">
         <h2 class="text-10 font-bold mb-4">What We’re Measuring</h2>
         <p class="mb-6 font-normal md:font-light">
-			<span class="font-bold">A Ground-Level View of Canada’s Workforce Pressures</span>
-			<br/>
+<!-- 			<span class="font-bold">A Ground-Level View of Canada’s Workforce Pressures</span> -->
 			To understand how businesses are adapting in today’s climate, Workforce Pulse captures data across four key focus areas:
 			<ul>
 				<li class="font-bold">Current Workforce Staffing Situation</li> 

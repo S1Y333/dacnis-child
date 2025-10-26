@@ -5,10 +5,9 @@
 ?>
 <?php get_header(); ?>
 <div id="content" >
-	
 <!--  hero image -->
   <section class="h-full w-full">
-  <div class=" bg-cover bg-center-bottom transition-all duration-300 ease-out border-solid border-b-[20px] border-[#5163AC] text-white h-[40rem] flex flex-col justify-end" style="background-image:url('https://workforcepulse.ca/wp-content/uploads/2025/08/hero-image-scaled.jpeg');">
+  <div class=" bg-cover transition-all duration-300 ease-out border-0 border-solid border-b-[20px] border-[#5163AC] text-white  flex flex-col justify-end" style="background-image:url('https://workforcepulse.ca/wp-content/uploads/2025/08/hero-image-scaled.jpeg');height:35rem; background-position:bottom;">
     <div class="mb-8 mx-auto px-4 max-w-full sm:max-w-container-sm
        md:max-w-container-md lg:max-w-container-lg
        xl:max-w-container-xl 2xl:max-w-container-2xl w-full sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full text-left">

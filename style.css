@@ -81,15 +81,24 @@ html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-family:sans-se
  b,
  strong{font-weight:700}
  dfn{font-style:italic}
- h1{font-size:2.2rem;margin:.67em 0}
-@media (min-width:410px) {
-	h1{ font-size:2.44em}
+h1,
+h2,h3{
+	font-weight:900;
 }
- h1,
- h2{line-height:1.4}
- h2{font-size:1.95em}
- h3{font-size:1.56em;line-height:1.4}
- h4{font-size:1.25em;line-height:1.5}
+@media (min-width:517px)
+ {	h1{font-size:3.75rem;  line-height: 4.1rem; margin:.67em 0}}
+@media (min-width:411px) and (max-width:516px){
+	h1{ font-size:2.9rem; line-height:3.5rem; }
+}
+@media (max-width:410px) {
+	h1{ font-size:2.8rem; line-height:3.5rem; }
+}
+ 
+h2 {
+	font-size:2.5rem; line-height:2.8rem;
+}
+ h3{font-size:1.875rem;line-height:2.2rem}
+ h4{font-size:1.3rem; font-weight:400; line-height:1.5rem}
  h5{font-size:1em}
  h6{font-size:.8em}
  mark{background:#ff0;color:#000}
@@ -3827,4 +3836,23 @@ html .h-y-container .wp-block:not([data-kubio]){max-width:100%}
 .wp-block-kubio-navigation-section * {
     animation: none !important;
     transition: none !important;
+}
+
+/* translation customization  */
+.wpml-ls-display,
+.wpml-ls-native{
+	font-weight:bold !important;
+	color:white !important;
+}
+/* only set nav translation switcher available on tablet and above screen sizes */
+@media (max-width:767px) {
+	.customized-switcher {
+	   display:none;
+}
+}
+
+@media (min-width:768px) {
+	.customized-switcher {
+	   display: inline-block;
+}
 }
